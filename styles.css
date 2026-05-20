@@ -9,22 +9,130 @@ body {
 h1 {
     margin-bottom:32px;
     font-style: italic;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: -25px;
 }
 
 .gridboxes {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(3, 350px);
-    gap: 120px;
+    gap: 100px;
 }
 
-.grid-item {
+.griditem {
     background-color:burlywood;
-    border: 2px solid #333;
+    border: 2px solid #ff0000;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+
+.bimage1 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("tictactoe.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+    
+
+}
+
+
+.bimage2 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("temp.png");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage3 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage4 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage5 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage6 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage7 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage8 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+.bimage9 {
+background-image:
+        linear-gradient(rgba(0,0,0,0.4),
+                        rgba(0,0,0,0.4)),
+        url("comingsoon.jpeg");    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
