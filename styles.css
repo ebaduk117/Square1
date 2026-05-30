@@ -87,7 +87,7 @@ background-image:
 background-image:
         linear-gradient(rgba(0,0,0,0.4),
                         rgba(0,0,0,0.4)),
-        url("comingsoon.jpeg");    background-size: cover;
+        url("meme.jpeg");    background-size: cover;
     background-position: center;
 
     color: white;
@@ -159,4 +159,129 @@ background-image:
     color: white;
     position: relative;
 }
+
+
+
+/*zone 1 stuff - tictactoe. alr so this stuff is only for BUTTON 1- the tictactoe stuff only. above stuff is general*/
+.tictactoe_popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: darkblue;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.tictactoe_popup.active {
+    display: flex;
+}
+
+.tictactoe_box {
+    background: navajowhite;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 20px 60px darkgoldenrod;
+    position: relative;
+}
+
+.tictactoe_box h2 {
+    margin-top: 0;
+    font-size: 28px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.close_button {
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: chartreuse;
+    font-weight: bold;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.close_button:hover {
+    color: khaki;
+}
+
+.tictactoe_board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 8px;
+    margin: 16px auto;
+    width: fit-content;
+}
+
+.tactactoe_cell {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border: 2px solid #ff0062;
+    border-radius: 12px;
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    cursor: progress;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:
+        background-color 0.15s ease,
+        transform 0.15s ease;
+}
+
+.tactactoe_cell:hover:not(.taken) {
+    background-color: #ff0062;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.23);
+    cursor: pointer;
+}
+ 
+.tactactoe_cell.taken {
+    cursor: default;
+}
+ 
+.status_message {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    min-height: 28px;
+    margin-bottom: 10px;
+}
+ 
+.play_again_botton {
+    display: none;
+    padding: 10px 28px;
+    background-color: red;
+    color: blueviolet;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+ 
+.play_again_botton:hover {
+    background-color: cyan  ;
+    transform: translateY(-3px);
+}
+ 
+.play_again_botton.visible {
+    display: inline-block;
+}
+ 
+/*okay this is the END OF TICTACTOESTYLES Stuff. From here on we are doing MUSIC ZONE*/
 

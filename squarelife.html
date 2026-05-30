@@ -16,9 +16,9 @@
     <br>
 
     <div class="gridboxes">
-        <div class="griditem bimage1">TICTACTOEGAME <br>(under development)</div>
+        <div class="griditem bimage1" id="tictactoe">TICTACTOEGAME<br>click to play!</div>
         <div class="griditem bimage2">Tunes Center <br>(under development)</div>
-        <div class="griditem bimage3">Coming Soon</div>
+        <div class="griditem bimage3">Meme Center <br> (under developemnt)</div>
         <div class="griditem bimage4">Coming Soon</div>
         <div class="griditem bimage5">Coming Soon</div>
         <div class="griditem bimage6">Coming Soon</div>
@@ -30,5 +30,31 @@
     <p>any ideas on what to make next? please feel free to suggest. On hack club. my username: @ebaduk117</p>
     <p>also, all feedback is welcome!</p>
 
+    <!--the tictactoe zone - the first popup-->
+    <div class="tictactoe_popup" id="tictactoe_modal">
+        <div class="tictactoe_box">
+            <button class="close_button" id="close_modal">X</button>
+            <h2>The TicTacToe Game</h2>
+            <p style="color: black; font-style:normal; font-size: 17px; margin-top: 0;">you are <strong>X</strong> and computer is <strong>O</strong></p>
+            <div class="status_message" id="status_msg">Ur Turn</div>
+            <div class="tictactoe_board" id="tictactoe_brd">
+                <div class="tactactoe_cell" data-index="0"></div>
+                <div class="tactactoe_cell" data-index="1"></div>
+                <div class="tactactoe_cell" data-index="2"></div>
+                <div class="tactactoe_cell" data-index="3"></div>
+                <div class="tactactoe_cell" data-index="4"></div>
+                <div class="tactactoe_cell" data-index="5"></div>
+                <div class="tactactoe_cell" data-index="6"></div>
+                <div class="tactactoe_cell" data-index="7"></div>
+                <div class="tactactoe_cell" data-index="8"></div>
+            </div>
+            <button class="play_again_botton" id="playagain_button">play again</button>
+        </div>
+    </div>
+
+    <!--music zone, this will be in the next update, not today. essentially, it will be a popup with music songs from my files (COMING SOON)-->
+
+
+    <script src="javascript.js"></script>
 </body>
 </html>
