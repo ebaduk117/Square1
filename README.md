@@ -15,3 +15,13 @@ I will be adding new stuff over time, so please be patient.
 At first the webpage will be small, boring, and dull.
 
 but dont think bad of it- since its going to become an amazing place for all people to enjoy.
+
+# current zones
+
+1. the TICTACTOEGAME Zone
+2. The Tunes Center - Now available!
+3. the Meme Center - Under development.
+4. the Whack-a-mole game - under development
+
+the rest are too far in the future to speak of right now, but dont worry, they're coming strong!
+

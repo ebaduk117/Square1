@@ -102,7 +102,7 @@ background-image:
 background-image:
         linear-gradient(rgba(0, 0, 0, 0.4),
                         rgba(0,0,0,0.4)),
-        url("comingsoon.jpeg");    background-size: cover;
+        url("whackamole.jpeg");    background-size: cover;
     background-position: center;
 
     color: white;
@@ -289,3 +289,56 @@ background-image:
  
 /*okay this is the END OF TICTACTOESTYLES Stuff. From here on we are doing MUSIC ZONE*/
 
+.music_popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: darkblue;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.music_popup.active {
+    display: flex;
+}
+
+.music_box {
+    background: navajowhite;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 20px 60px darkgoldenrod;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.music_box h2 {
+    margin-top: 0;
+    font-size: 28px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.song_item {
+    background-color: chocolate;
+    border: 2px solid #ff0062;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.song_item p {
+    color: white;
+    text-align: left;
+    margin: 0 0 8px 0;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.song_item audio {
+    width: 100%;
+}

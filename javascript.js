@@ -128,5 +128,20 @@ tictactoe_cells.forEach(cell => {
 playagain_button.addEventListener('click', reset_game);
 
 
+const tunes_panel = document.getElementById('tunes');
+const music_modal = document.getElementById('music_modal');
+const close_music_modal = document.getElementById('close_music_modal');
 
+tunes_panel.addEventListener('click', () => {
+    music_modal.classList.add('active');
+});
 
+close_music_modal.addEventListener('click', () => {
+    music_modal.classList.remove('active');
+});
+
+music_modal.addEventListener('click', (e) => {
+    if (e.target === music_modal) {
+        music_modal.classList.remove('active');
+    }
+});
